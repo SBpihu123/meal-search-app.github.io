@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meal App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Meal App</h1>
+    <div class="flex">
+      <form class="flex" id="submit">
+        <input type="text" id="search" placeholder="Search for Meal">
+        <button class="btn-search" type="submit">
+          Search
+        </button>
+      </form>
+      <button class="btn-random" id="random">
+        Random
+      </button>
+    </div>
+  
+    <div class="result-heading"></div>
+    <div id="meals" class="meals"></div>
+    <div id="single-meal" class="single-meal"></div>
+    <div class="favorites">
+      <h2>My Favorite Meals</h2>
+      <ul id="favorite-meals" class="favorite-meals"></ul>
+    </div>
+  </div>
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
